@@ -9,8 +9,19 @@ This project simulates percolation on an n×n grid using a Monte Carlo approach.
 - Git Bash
 
 ## Usage
-1. Open **Git Bash Terminal** in the project’s working directory.
-2. Run:
+1. Clone the repo
+   ```bash
+   git clone https://github.com/XavierRHMN/Monte-Carlo-Sim-Percolation-System.git
+   ```
+2. cd into the working directory
+   ```bash
+   cd Monte-Carlo-Sim-Percolation-System
+   ```
+3. Activate git bash terminal within working directory
+   ```bash
+   bash
+   ```
+4. Run:
 
    ```bash
    java-algs4 PercolationStats grid_size trials
@@ -23,6 +34,6 @@ This project simulates percolation on an n×n grid using a Monte Carlo approach.
    ```
 
 ## Notes
-* Must be run from **Git Bash**, not PowerShell or CMD.
+* Any command prefixed with java-algs4 must be run from **Git Bash**, not PowerShell or CMD.
 
 ---
