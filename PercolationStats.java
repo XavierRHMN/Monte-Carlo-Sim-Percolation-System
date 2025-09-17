@@ -35,7 +35,7 @@ public class PercolationStats {
             }
 
             double openSites = perc.numberOfOpenSites();
-            double totSites = (double) (n * n);
+            double totSites = (n * n);
             percFractions[i] = openSites / totSites;
         }
 
